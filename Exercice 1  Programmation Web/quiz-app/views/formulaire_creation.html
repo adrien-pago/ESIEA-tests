@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Création de Question</title>
+    <link rel="stylesheet" href="/css/formulaire_creation.css">
+</head>
+<body>
+    <form action="/create-question" method="GET">
+        <label for="question">Question :</label>
+        <input type="text" id="question" name="question"><br>
+        <label for="reponse1">Réponse 1 :</label>
+        <input type="text" id="reponse1" name="reponse1"><br>
+        <label for="reponse2">Réponse 2 :</label>
+        <input type="text" id="reponse2" name="reponse2"><br>
+        <label for="correcte">Réponse correcte :</label>
+        <input type="number" id="correcte" name="correcte" min="1" max="2"><br>
+        <input type="submit" value="Soumettre">
+    </form>
+</body>
+</html>
