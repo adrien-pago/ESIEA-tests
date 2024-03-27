@@ -1,5 +1,5 @@
 ## Structure des dossiers
-
+```
 quiz-app/
 │
 ├── public/
@@ -19,7 +19,7 @@ quiz-app/
 │ └── affichage_questions.html
 │
 └── server.js
-
+```
 ## Avant de Tester
 
 - **Installation d'Express :** Exécuter `$ npm install express` dans le répertoire de votre projet.
