@@ -4,18 +4,17 @@ quiz-app/
 │
 ├── public/
 │   ├── css/
-│   │   ├── accueil.css
+│   │   ├── index.css
 │   │   ├── formulaire_creation.css
 │   │   └── affichage_questions.css
 │   │
 │   ├── js/
-│   │   ├── formulaire_creation.js
-│   │   └── affichage_questions.js
-│   │
-│   └── index.html
-│
+│        ├── formulaire_creation.js
+│        └── affichage_questions.js
+│   
+│   
 ├── views/
-│   ├── accueil.html
+│   ├── index.html
 │   ├── formulaire_creation.html
 │   └── affichage_questions.html
 │
@@ -25,3 +24,7 @@ quiz-app/
 Avant de Tester
 * Installation d'Express :Exécuter $npm install express dans le répertoire de votre projet.
 * Lancement du serveur : Lancer le serveur en exécutant $node server.js à la racine du projet dans /quiz-app puis utiliser http://localhost:3000 pour tester l'application 
+
+Pour se rendre à la racine
+* $cd Exercice1_Programmation_Web
+* $cd quiz-app
