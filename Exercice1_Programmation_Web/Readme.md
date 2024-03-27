@@ -8,9 +8,9 @@ quiz-app/
 │ │ ├── formulaire_creation.css
 │ │ └── affichage_questions.css
 │ │
-│ ├── js/
-│ │ ├── formulaire_creation.js
-│ │ └── affichage_questions.js
+│ └──js/
+│   ├── formulaire_creation.js
+│   └── affichage_questions.js
 │
 │
 ├── views/
@@ -19,9 +19,6 @@ quiz-app/
 │ └── affichage_questions.html
 │
 └── server.js
-
-markdown
-Copy code
 
 ## Avant de Tester
 
