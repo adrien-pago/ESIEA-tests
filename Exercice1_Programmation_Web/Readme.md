@@ -3,6 +3,7 @@
 quiz-app/
 │
 ├── public/
+│ │
 │ ├── css/
 │ │ ├── index.css
 │ │ ├── formulaire_creation.css
@@ -11,7 +12,6 @@ quiz-app/
 │ └──js/
 │   ├── formulaire_creation.js
 │   └── affichage_questions.js
-│
 │
 ├── views/
 │ ├── index.html
