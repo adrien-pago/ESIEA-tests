@@ -22,7 +22,7 @@ quiz-app/
 ```
 ## Avant de Tester
 
-- **Installation d'Express :** Exécuter `$ npm install express` dans le répertoire de votre projet.
+- **Installation d'Express :** Exécuter `$ npm install express` dans le répertoire du projet.
 - **Lancement du serveur :** Lancer le serveur en exécutant `$ node server.js` à la racine du projet dans `/quiz-app`, puis utiliser `http://localhost:3000` pour tester l'application.
 
 ## Pour se rendre à la racine à partir du terminal du fichier /ESIA-TESTS dans VsCode
