@@ -60,32 +60,40 @@
 ## Requête SQL
 
 **Sélectionner les noms, commentaires et dates de naissance des animaux disponibles à l'adoption :**
+```
 SELECT Nom, Commentaires, DateNaissance
 FROM Animal
 WHERE Disponible = TRUE;
-
+```
 **Supprimer l'adoption de l'animal dont l'id = 5 :**
+```
 DELETE FROM Adoption
 WHERE AnimalID = 5;
-
+```
 **Mettre à jour le statut disponible de l'animal dont l'id = 5 :**
 Pour marquer l'animal comme disponible à nouveau, on suppose qu'il était indiqué comme non disponible :
+```
 UPDATE Animal
 SET Disponible = TRUE
 WHERE AnimalID = 5;
+```
 
 **Sélectionner les animaux de l'espèce "chat" :**
 On suppose que le nom courant de l'espèce "chat" est stocké dans la table Espèce :
+```
 SELECT Animal.Nom
 FROM Animal
 JOIN Espèce ON Animal.EspèceID = Espèce.EspèceID
 WHERE Espèce.NomCourant = 'Chat';
+```
 
 **Compter le nombre d'animaux par espèces :**
+```
 SELECT Espèce.NomCourant, COUNT(Animal.AnimalID) AS NombreAnimaux
 FROM Animal
 JOIN Espèce ON Animal.EspèceID = Espèce.EspèceID
 GROUP BY Espèce.NomCourant;
+```
 
 
 
