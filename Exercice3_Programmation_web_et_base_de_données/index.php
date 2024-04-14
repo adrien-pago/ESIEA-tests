@@ -1,9 +1,9 @@
+<!-- Valeur de connexion à la base de donnée sont fake pour l'exemple-->
 <?php include 'mon-header.php'; ?>
 <main>
     <form action="adoption.php" method="GET">
         <label for="espece">Sélectionnez une espèce:</label>
         <select name="espece" id="espece">
-            <!-- Valeur de connexion à la base de donnée sont fake pour l'exemple-->
             <?php
             try {
                 $pdo = new PDO('mysql:host=localhost;dbname=nom_de_la_base', 'utilisateur', 'mot_de_passe');

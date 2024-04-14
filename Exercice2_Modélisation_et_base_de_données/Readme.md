@@ -1,5 +1,7 @@
 # Exercice 2 : Modélisation et Base de Données
 
+## Veuillez trouver en capture d'écran le MCD et le MLD réaliser avec draw.io
+
 ## Modèle Conceptuel des Données (MCD)
 
 ### Entités et Associations

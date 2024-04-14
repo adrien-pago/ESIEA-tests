@@ -1,3 +1,4 @@
+<!-- Valeur de connexion à la base de donnée sont fake pour l'exemple-->
 <?php
 session_start();
 if (isset($_GET['espece'])) {
